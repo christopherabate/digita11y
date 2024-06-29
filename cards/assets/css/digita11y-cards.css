@@ -6,8 +6,3 @@ main * {
 .card .card-footer * {
   color: #118ab2 !important;
 }
-
-.card {
-  border-color: #118ab2 !important;
-  border-width: 2px;
-}
