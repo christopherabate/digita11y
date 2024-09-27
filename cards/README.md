@@ -1,5 +1,5 @@
 # Digita11y Cards
-[A card based game about accessibility](https://christopherabate.github.io/digita11y/cards/#tools)
+[A card based game about accessibility](https://christopherabate.github.io/digita11y/cards/)
 
 # Card Game: Web Accessibility
 
