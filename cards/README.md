@@ -44,13 +44,13 @@ Le but est de devenir le joueur ayant le moins de critères invalides à la fin 
 - **Titre de page :** Chaque page doit avoir un titre clair décrivant son contenu (WCAG 2.4.2).
 - **Langue de la page :** La langue principale de la page doit être spécifiée pour aider les utilisateurs des technologies d'assistance (WCAG 3.1.1).
 
-### 4. Jetons de Rôles (avec pictogrammes)
-- **Project Manager (PM)** ![PM Pictogramme](https://example.com/pm-icon.png)
-- **Développeur (Dev)** ![Dev Pictogramme](https://example.com/dev-icon.png)
-- **Designer** ![Designer Pictogramme](https://example.com/designer-icon.png)
-- **Expert** ![Expert Pictogramme](https://example.com/expert-icon.png)
-- **Testeur** ![Tester Pictogramme](https://example.com/tester-icon.png)
-- **Manager** ![Manager Pictogramme](https://example.com/manager-icon.png)
+### 4. Cartes de Rôles
+- **Project Manager**
+- **Développeur**
+- **Designer**
+- **Expert**
+- **Testeur**
+- **Manager**
 
 ### 5. Plateau de Jeu
 Le plateau représente les étapes d’un projet de développement web, de la conception à la mise en production.
