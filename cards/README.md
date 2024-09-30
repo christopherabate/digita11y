@@ -52,36 +52,38 @@ Le but est de devenir le joueur ayant le moins de critères invalides à la fin 
 - **Testeur** ![Tester Pictogramme](https://example.com/tester-icon.png)
 - **Manager** ![Manager Pictogramme](https://example.com/manager-icon.png)
 
-### 5. Plateau de Jeu (avec pictogrammes)
+### 5. Plateau de Jeu
 Le plateau représente les étapes d’un projet de développement web, de la conception à la mise en production.
 
-1. **Conception (Design)** ![Conception Pictogramme](https://example.com/design-icon.png)
+1. **Conception**
    - **Description** : Création de l’interface utilisateur avec une attention particulière à l’accessibilité visuelle (contraste, couleurs).
    - **Critères typiques** : Contraste, Utilisation de la couleur.
 
-2. **Prototypage (Wireframing & Prototyping)** ![Prototypage Pictogramme](https://example.com/prototype-icon.png)
+2. **Prototypage**
    - **Description** : Création de maquettes fonctionnelles en veillant à la structure logique des informations.
    - **Critères typiques** : Information et relations, Ordre séquentiel logique.
 
-3. **Développement Front-End** ![Développement Front-End Pictogramme](https://example.com/frontend-icon.png)
+3. **Développement**
    - **Description** : Programmation de l’interface utilisateur, s'assurant que tous les éléments sont accessibles via le clavier et bien structurés.
    - **Critères typiques** : Accessibilité clavier, Nom, rôle, et valeur.
 
-4. **Développement Back-End** ![Développement Back-End Pictogramme](https://example.com/backend-icon.png)
-   - **Description** : Mise en place de la logique côté serveur, s'assurant que toutes les fonctionnalités sont accessibles.
-   - **Critères typiques** : Contournement des blocs, Étiquettes ou instructions.
-
-5. **Tests (Testing)** ![Tests Pictogramme](https://example.com/tests-icon.png)
+5. **Tests**
    - **Description** : Évaluation de l’accessibilité à l’aide d’outils et de technologies d’assistance.
    - **Critères typiques** : Ordre de focus, Visibilité du focus.
 
-6. **Validation (Validation & Quality Assurance)** ![Validation Pictogramme](https://example.com/validation-icon.png)
+6. **Contribution**
    - **Description** : Validation finale des critères d’accessibilité avant la mise en production.
    - **Critères typiques** : Contenu non-textuel, Contraste du contenu non-textuel.
 
-7. **Mise en Production (Deployment)** ![Mise en Production Pictogramme](https://example.com/deployment-icon.png)
+7. **Mise en Production**
    - **Description** : Publication du site en ligne, avec tous les critères d’accessibilité respectés.
    - **Critères typiques** : Titre de page, Langue de la page.
+
+8. **Audit accessibilité**
+   - **Description** : Dernière phase pour prendre en compte les critères d'accessibilité restants.
+
+8. **Déclaration accessibilité**
+   - **Description** : Analyse détaillé d'un échantillon représentation du site ou du service.
 
 ---
 
@@ -100,10 +102,10 @@ Le plateau représente les étapes d’un projet de développement web, de la co
   - **Demander de l’aide à un Expert :** Si un joueur ne trouve pas l’outil nécessaire, il peut demander l’aide d’un autre joueur en échange d’une avance d’une case.
 - Le choix est donné aux autres joueurs d'accepter ou non la justification. En cas de contestation, une justification inverse devra être proposée par le ou les autres joueurs.
 
-### 3. Avant-dernière étape – La Recette
+### 3. Avant-dernière étape – L'audit
 - Le joueur peut continuer à tirer des cartes outils ou demander l’avis d’experts sans être obligé d’avancer ou de tirer une carte critère.
 
-### 4. Dernière étape – L’Audit
+### 4. Dernière étape – La déclaration
 - Le joueur tire une carte de Déficience qu'il garde cachée.
 - Lorsque tous les joueurs atteignent cette étape, ils révèlent leur carte Déficience et les cartes Critère qu’ils possèdent.
 - Si le joueur estime que ses cartes Critères ne sont pas bloquants au regard de sa déficience, il doit le justifier. Tout comme à chaque tour, le choix est donné aux autres joueurs d'accepter ou non la justification.
