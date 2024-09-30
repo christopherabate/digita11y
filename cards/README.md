@@ -1,5 +1,5 @@
 # Digita11y Cards
-**(Un jeu de cartes sur l'accessibilité web)[https://christopherabate.github.io/digita11y/cards/]**
+**[Un jeu de cartes sur l'accessibilité web](https://christopherabate.github.io/digita11y/cards/)**
 
 ## Objectif du jeu
 Le but est de devenir le joueur ayant le moins de critères invalides à la fin du jeu, tout en progressant à travers les différentes étapes d'un projet de développement web. Les participants doivent utiliser des outils et collaborer pour surmonter les critères d'accessibilité, en prenant en compte les responsabilités spécifiques à leur rôle.
