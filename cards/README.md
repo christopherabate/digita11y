@@ -8,7 +8,7 @@ Le but est de devenir le joueur ayant le moins de critères invalides à la fin 
 
 ## Matériel
 
-### 1. Cartes de Handicap (7 cartes)
+### 1. Cartes de Déficience (7 cartes)
 - **Visuel :** Difficultés à percevoir les informations visuelles, y compris les personnes aveugles, malvoyantes ou daltoniennes.
 - **Auditif :** Incapacité à entendre ou comprendre le contenu audio, affectant souvent les personnes sourdes ou malentendantes.
 - **Moteur :** Limitations dans l'utilisation des membres, pouvant affecter l'interaction avec des dispositifs comme la souris ou le clavier.
@@ -88,27 +88,28 @@ Le plateau représente les étapes d’un projet de développement web, de la co
 ## Règles du jeu
 
 ### 1. Mise en place
-- Chaque joueur choisit un rôle parmi : Project Manager, Développeur, Designer, Expert, Manager, Testeur.
 - Les cartes Outils et Critères sont placées au centre du plateau de jeu.
+- Chaque joueur tire un rôle au hasard et la pose devant lui face visible.
 
 ### 2. Tour de jeu
-- Les joueurs avancent d'une case sur le plateau à chaque tour et tirent une carte Critère.
+- Au début de chaque tour de jeu, les joueurs tirent une carte Critère.
 - Ils doivent gérer cette carte en utilisant une des actions suivantes :
-  - **Utiliser un Outil :** Si le joueur possède un outil approprié, il peut l'utiliser et avancer d'une case.
-  - **Tirer un Outil :** Le joueur peut choisir de tirer un outil et l’utiliser à son prochain tour.
-  - **Prendre un Outil dans la Forge :** Le joueur peut prendre un outil déjà utilisé (dans la "forge"), mais doit attendre son tour suivant pour l’utiliser.
+  - **Utiliser un Outil :** Si le joueur pense que l'outil est approprié, il peut justifier son choix, poser le Critère dans les "Done", l'outil dans la "Forge" et avancer d'une case.
+  - **Tirer un Outil :** Le joueur peut choisir de tirer un outil et l’utiliser.
+  - **Prendre un Outil dans la Forge :** Le joueur peut prendre un outil déjà utilisé (dans la "Forge"), mais doit attendre son tour suivant pour l’utiliser et avancer d'une case.
   - **Demander de l’aide à un Expert :** Si un joueur ne trouve pas l’outil nécessaire, il peut demander l’aide d’un autre joueur en échange d’une avance d’une case.
+- Le choix est donné aux autres joueurs d'accepter ou non la justification. En cas de contestation, une justification inverse devra être proposée par le ou les autres joueurs.
 
 ### 3. Avant-dernière étape – La Recette
-- Le joueur peut continuer à tirer des cartes ou demander l’avis d’experts sans être obligé d’avancer.
+- Le joueur peut continuer à tirer des cartes outils ou demander l’avis d’experts sans être obligé d’avancer ou de tirer une carte critère.
 
 ### 4. Dernière étape – L’Audit
-- Le joueur tire une carte de Handicap qu'il garde cachée.
-- Lorsque tous les joueurs atteignent cette étape, ils révèlent leur carte Handicap et les cartes Critère qu’ils possèdent.
-- Si un critère invalide correspond à une carte Handicap, le joueur perd.
+- Le joueur tire une carte de Déficience qu'il garde cachée.
+- Lorsque tous les joueurs atteignent cette étape, ils révèlent leur carte Déficience et les cartes Critère qu’ils possèdent.
+- Si le joueur estime que ses cartes Critères ne sont pas bloquants au regard de sa déficience, il doit le justifier. Tout comme à chaque tour, le choix est donné aux autres joueurs d'accepter ou non la justification.
 
 ### 5. Gagnant
-- Le joueur ayant le moins de critères invalides à la fin du jeu gagne.
+- Le joueur ayant le moins de Critères bloquants à la fin du jeu gagne.
 
 ---
 
@@ -123,4 +124,4 @@ Le plateau représente les étapes d’un projet de développement web, de la co
 ---
 
 ## Conclusion
-Ce jeu vise à sensibiliser aux problèmes d'accessibilité web tout en favorisant la collaboration et l'échange d'idées. Amusez-vous en surmontant les défis d'un projet tout en tenant compte des responsabilités et des outils à votre disposition !
+Ce jeu vise à sensibiliser aux problèmes d'accessibilité web tout en favorisant la collaboration et l'échange d'idées.
