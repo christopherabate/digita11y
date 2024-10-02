@@ -11,24 +11,24 @@ Le but est de devenir le joueur ayant le moins de critères invalides à la fin 
 ## Matériel
 
 ### 1. Cartes Déficience (7 cartes)
-- **Visuel :** Difficultés à percevoir les informations visuelles, y compris les personnes aveugles, malvoyantes ou daltoniennes.
-- **Auditif :** Incapacité à entendre ou comprendre le contenu audio, affectant souvent les personnes sourdes ou malentendantes.
+- **Visuel :** Difficultés à percevoir les informations visuelles, comprenant des personnes aveugles, malvoyantes ou daltoniennes.
+- **Auditif :** Incapacité à entendre ou comprendre le contenu audio, comprenant des personnes sourdes ou malentendantes.
 - **Moteur :** Limitations dans l'utilisation des membres, pouvant affecter l'interaction avec des dispositifs comme la souris ou le clavier.
 - **Psychologique :** Troubles mentaux qui peuvent affecter la concentration et la compréhension.
-- **Intellectuel :** Difficultés à comprendre l'information et les instructions, souvent associées aux handicaps cognitifs ou d'apprentissage.
+- **Intellectuel :** Difficultés à comprendre l'information et les instructions, comprenant des handicaps cognitifs ou d'apprentissage.
 - **Dyslexie :** Inclut des difficultés spécifiques comme la dyslexie, la dyscalculie ou la dyspraxie, affectant la lecture, l'écriture ou la coordination.
 - **Maladie chronique :** Conditions de santé chroniques ou invalidantes qui peuvent affecter l'accès à l'information ou l'interaction avec le contenu numérique.
 
 ### 2. Cartes Outils (9 cartes)
-- **Contrôleur de syntaxe :** Identifie et corrige les erreurs dans le code, facilitant l'accessibilité du contenu.
-- **Tests continus :** Évaluation continue de l'accessibilité tout au long du projet.
-- **Surveillance :** Suivi des changements d'accessibilité pendant le développement.
+- **Contrôleur de syntaxe :** Identifie et corrige les erreurs dans un éditeur de code.
+- **Tests continus :** Évaluation continue de l'accessibilité à chaque version publiée.
+- **Surveillance :** Suivi des changements d'accessibilité par périodes définies.
 - **Contrôleur de contraste :** Analyse le contraste entre le texte et l'arrière-plan pour garantir une lisibilité optimale.
-- **Extension de navigateur :** Outils intégrés dans les navigateurs pour évaluer l'accessibilité.
-- **Marque-page scripté :** Permet de sauvegarder des points de vérification d'accessibilité dans le code.
+- **Extension de navigateur :** Outils intégrés dans les navigateurs pour aider la repérage d'un ou plusieurs critères non-conformes.
+- **Marque-page scripté :** (ou bookmarklet) Comme une extension de navigateur, aide au repérages des critères non-conformes.
 - **Inspecteur de code :** Examine le code source d'une page pour identifier les problèmes d'accessibilité.
-- **Clavier :** Outil essentiel pour les utilisateurs ayant des difficultés motrices, permettant la navigation sans souris.
-- **Technologie d’assistance :** Divers outils (lecteurs d’écran, dispositifs de pointage alternatifs, etc.) qui facilitent l’accès au contenu numérique.
+- **Clavier :** Navigation sans souris pour valider le fonctionnement, l'ordre de prise en compte et la visiblité des composants.
+- **Technologie d’assistance :** Divers outils (lecteurs d’écran, dispositifs de pointage alternatifs, etc.) permettant de palier à une situation de handicap numérique.
 
 ### 3. Cartes Critères (14 cartes)
 - **Contraste :** Le contraste entre le texte et l'arrière-plan doit être suffisant pour garantir la lisibilité (WCAG 1.4.3).
