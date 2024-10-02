@@ -1,14 +1,16 @@
-# Digita11y Cards
+# Digita11y
 **[Un jeu de cartes sur l'accessibilité web](https://christopherabate.github.io/digita11y/cards/)**
 
 ## Objectif du jeu
 Le but est de devenir le joueur ayant le moins de critères invalides à la fin du jeu, tout en progressant à travers les différentes étapes d'un projet de développement web. Les participants doivent utiliser des outils et collaborer pour surmonter les critères d'accessibilité, en prenant en compte les responsabilités spécifiques à leur rôle.
 
+2 à 7 joueurs.
+
 ---
 
 ## Matériel
 
-### 1. Cartes de Déficience (7 cartes)
+### 1. Cartes Déficience (7 cartes)
 - **Visuel :** Difficultés à percevoir les informations visuelles, y compris les personnes aveugles, malvoyantes ou daltoniennes.
 - **Auditif :** Incapacité à entendre ou comprendre le contenu audio, affectant souvent les personnes sourdes ou malentendantes.
 - **Moteur :** Limitations dans l'utilisation des membres, pouvant affecter l'interaction avec des dispositifs comme la souris ou le clavier.
@@ -17,7 +19,7 @@ Le but est de devenir le joueur ayant le moins de critères invalides à la fin 
 - **Dyslexie :** Inclut des difficultés spécifiques comme la dyslexie, la dyscalculie ou la dyspraxie, affectant la lecture, l'écriture ou la coordination.
 - **Maladie chronique :** Conditions de santé chroniques ou invalidantes qui peuvent affecter l'accès à l'information ou l'interaction avec le contenu numérique.
 
-### 2. Cartes d’Outils (9 cartes)
+### 2. Cartes Outils (9 cartes)
 - **Contrôleur de syntaxe :** Identifie et corrige les erreurs dans le code, facilitant l'accessibilité du contenu.
 - **Tests continus :** Évaluation continue de l'accessibilité tout au long du projet.
 - **Surveillance :** Suivi des changements d'accessibilité pendant le développement.
@@ -28,7 +30,7 @@ Le but est de devenir le joueur ayant le moins de critères invalides à la fin 
 - **Clavier :** Outil essentiel pour les utilisateurs ayant des difficultés motrices, permettant la navigation sans souris.
 - **Technologie d’assistance :** Divers outils (lecteurs d’écran, dispositifs de pointage alternatifs, etc.) qui facilitent l’accès au contenu numérique.
 
-### 3. Cartes de Critères (14 cartes)
+### 3. Cartes Critères (14 cartes)
 - **Contraste :** Le contraste entre le texte et l'arrière-plan doit être suffisant pour garantir la lisibilité (WCAG 1.4.3).
 - **Nom, rôle, et valeur :** Les éléments interactifs doivent avoir des noms, rôles et valeurs appropriés pour être accessibles via les technologies d'assistance (WCAG 4.1.2).
 - **Information et relations :** La structure du contenu doit être correcte, permettant aux utilisateurs de comprendre les relations entre les éléments (WCAG 1.3.1).
@@ -44,13 +46,14 @@ Le but est de devenir le joueur ayant le moins de critères invalides à la fin 
 - **Titre de page :** Chaque page doit avoir un titre clair décrivant son contenu (WCAG 2.4.2).
 - **Langue de la page :** La langue principale de la page doit être spécifiée pour aider les utilisateurs des technologies d'assistance (WCAG 3.1.1).
 
-### 4. Cartes de Rôles
-- **Project Manager**
-- **Développeur**
-- **Designer**
-- **Expert**
-- **Testeur**
-- **Manager**
+### 4. Cartes Rôles (7 cartes)
+- **Manager :** Peut échanger un de ses critères contre un autre tiré du deck lors de l'audit.
+- **Project Manager :** // capacité à définir
+- **Product Owner :** // capacité à définir
+- **Designer :** Peut se débarrasser à tout moment des critères "Contraste" et "Utilisation de la couleur".
+- **Développeur :** Peut corriger un critère sans outil lors de l'audit, "Nom, rôle, et valeur" ou "Information et relations".
+- **Testeur :** Tire une carte outil au début du jeu.
+- **Expert :** Peut regarder la main d’un autre joueur avant son tour.
 
 ### 5. Plateau de Jeu
 Le plateau représente les étapes d’un projet de développement web, de la conception à la mise en production.
@@ -112,16 +115,6 @@ Le plateau représente les étapes d’un projet de développement web, de la co
 
 ### 5. Gagnant
 - Le joueur ayant le moins de Critères bloquants à la fin du jeu gagne.
-
----
-
-## Talents de rôle
-
-- **Développeur (Dev) :** Peut corriger un critère de son choix lors de l'audit, parmi "Nom, rôle, et valeur" ou deux autres critères.
-- **Designer :** N'est pas affecté par les critères de contraste et d'utilisation de la couleur.
-- **Expert :** Peut regarder la main d’un autre joueur avant son tour.
-- **Testeur :** Tire un outil au début du jeu.
-- **Project Manager (PM) :** Peut échanger un de ses critères contre un autre tiré du deck.
 
 ---
 
