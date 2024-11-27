@@ -9,14 +9,16 @@
     <title>Digita11y - Cartes</title>
   </head>
   <body>
-    <header role="banner">
+    <header role="banner" class="fixed-top bg-body-tertiary">
       <div class="container-fluid d-flex align-items-center justify-content-between py-2">
-        <h1 class="lead m-0"><a class="text-body text-decoration-none" href="./"><span class="bi bi-stack"></span> Digita11y - Cartes</a></h1>
+        <h1 class="lead m-0"><a class="text-decoration-none" href="./"><span class="bi bi-stack"></span> Digita11y - Cartes</a></h1>
         <nav class="dropdown">
-          <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" type="button" aria-expanded="false">
+          <button class="btn dropdown-toggle" data-bs-toggle="dropdown" type="button" aria-expanded="false">
             <span class="bi bi-list" aria-label="Cartes"></span>
           </button>
           <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#steps">Étapes</a></li>
+            <li><a class="dropdown-item" href="#roles">Rôles</a></li>
             <li><a class="dropdown-item" href="#disabilities">Déficiences</a></li>
             <li><a class="dropdown-item" href="#tools">Outils</a></li>
             <li><a class="dropdown-item" href="#criteria">Critères</a></li>
@@ -24,123 +26,126 @@
         </nav>
       </div>
     </header>
-    <main role="main">
+    <main role="main" class="pt-3 pb-5">
       <div class="container-fluid">
-
-
-        <h2 class="display-6">Plateau de Jeu</h2>
-        
-        <div class="container" id="game-board">
-          <div class="row text-center justify-content-center mb-4">
-            <div class="col-12 mb-4">
-              <h3 class="text-primary">Étapes du projet</h3>
-            </div>
-        
-            <!-- Début : Conception -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="step-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/fd7e14/073b4c/?text=Conception" alt="Conception" class="mb-3">
-                <h4 class="fw-bold">Conception</h4>
-                <p>Première étape du projet, définition des besoins et des contraintes.</p>
+        <h2 class="display-6 mt-5">Étapes</h2>
+        <div class="row" id="steps">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Conception</h3>
+                <p class="card-text">Création de l’interface utilisateur avec une attention particulière à l’accessibilité visuelle (contraste, couleurs).</p>
+                <p class="card-text"><strong>Critères typiques :</strong> Contraste, Utilisation de la couleur.</p>
               </div>
-            </div>
-        
-            <!-- Développement -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="step-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/06d6a0/073b4c/?text=Développement" alt="Développement" class="mb-3">
-                <h4 class="fw-bold">Développement</h4>
-                <p>Phase de création du code source et des fonctionnalités du site.</p>
-              </div>
-            </div>
-        
-            <!-- Test -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="step-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/118ab2/073b4c/?text=Test" alt="Test" class="mb-3">
-                <h4 class="fw-bold">Tests</h4>
-                <p>Vérification de la conformité du site avec les exigences d'accessibilité.</p>
-              </div>
-            </div>
-        
-            <!-- Révisions -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="step-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/ffd166/073b4c/?text=Révisions" alt="Révisions" class="mb-3">
-                <h4 class="fw-bold">Révisions</h4>
-                <p>Retour sur les tests et correction des erreurs.</p>
-              </div>
-            </div>
-        
-            <!-- Mise en Production -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="step-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/ef476f/073b4c/?text=Production" alt="Production" class="mb-3">
-                <h4 class="fw-bold">Mise en Production</h4>
-                <p>Lancement du site en ligne pour les utilisateurs.</p>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-1-circle fs-4" aria-label="Étape 1"></span>
+                <p class="card-text">Conception</p>
               </div>
             </div>
           </div>
-        
-          <div class="row justify-content-center">
-            <div class="col-12 mb-4">
-              <h3 class="text-primary">Rôles des Joueurs</h3>
-            </div>
-        
-            <!-- Rôle : Project Manager -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="role-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/073b4c/fd7e14/?text=PM" alt="Project Manager" class="mb-3">
-                <h4 class="fw-bold">Project Manager</h4>
-                <p>Coordonne le projet et gère l’équipe.</p>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Prototypage</h3>
+                <p class="card-text">Création de maquettes fonctionnelles en veillant à la structure logique des informations.</p>
+                <p class="card-text"><strong>Critères typiques :</strong> Information et relations, Ordre séquentiel logique.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-2-circle fs-4" aria-label="Étape 2"></span>
+                <p class="card-text">Prototypage</p>
               </div>
             </div>
-        
-            <!-- Rôle : Développeur -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="role-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/073b4c/06d6a0/?text=Dev" alt="Développeur" class="mb-3">
-                <h4 class="fw-bold">Développeur</h4>
-                <p>Crée et maintient le code du site.</p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Développement</h3>
+                <p class="card-text">Programmation de l’interface utilisateur, s'assurant que tous les éléments sont accessibles via le clavier et bien structurés.</p>
+                <p class="card-text"><strong>Critères typiques :</strong> Accessibilité clavier, Nom, rôle, et valeur.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-3-circle fs-4" aria-label="Étape 3"></span>
+                <p class="card-text">Développement</p>
               </div>
             </div>
-        
-            <!-- Rôle : Designer -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="role-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/073b4c/ffd166/?text=Designer" alt="Designer" class="mb-3">
-                <h4 class="fw-bold">Designer</h4>
-                <p>Conçoit les interfaces et l'expérience utilisateur.</p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Tests</h3>
+                <p class="card-text">Évaluation de l’accessibilité à l’aide d’outils et de technologies d’assistance.</p>
+                <p class="card-text"><strong>Critères typiques :</strong> Ordre de focus, Visibilité du focus.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-4-circle fs-4" aria-label="Étape 4"></span>
+                <p class="card-text">Tests</p>
               </div>
             </div>
-        
-            <!-- Rôle : Expert en Accessibilité -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="role-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/073b4c/118ab2/?text=Expert" alt="Expert Accessibilité" class="mb-3">
-                <h4 class="fw-bold">Expert Accessibilité</h4>
-                <p>Garantit la conformité du site aux normes d'accessibilité.</p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Contribution</h3>
+                <p class="card-text">Validation finale des critères d’accessibilité avant la mise en production.</p>
+                <p class="card-text"><strong>Critères typiques :</strong> Contenu non-textuel, Contraste du contenu non-textuel.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-5-circle fs-4" aria-label="Étape 5"></span>
+                <p class="card-text">Contribution</p>
               </div>
             </div>
-        
-            <!-- Rôle : Testeur -->
-            <div class="col-12 col-md-2 mb-3">
-              <div class="role-card p-3 shadow bg-light border rounded">
-                <img src="https://placehold.co/100x100/073b4c/ef476f/?text=Testeur" alt="Testeur" class="mb-3">
-                <h4 class="fw-bold">Testeur</h4>
-                <p>Teste et valide la qualité du site avant son lancement.</p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Mise en Production</h3>
+                <p class="card-text">Publication du site en ligne, avec tous les critères d’accessibilité respectés.</p>
+                <p class="card-text"><strong>Critères typiques :</strong> Titre de page, Langue de la page.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-6-circle fs-4" aria-label="Étape 6"></span>
+                <p class="card-text">Mise en Production</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Audit accessibilité</h3>
+                <p class="card-text">Dernière phase pour prendre en compte les critères d'accessibilité restants.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-7-circle fs-4" aria-label="Étape 7"></span>
+                <p class="card-text">Audit accessibilité</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/steps.jpg" class="card-img-top" alt="Étapes">
+              <div class="card-body">
+                <h3 class="card-title">Déclaration accessibilité</h3>
+                <p class="card-text">Analyse détaillée d'un échantillon représentatif du site ou du service.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-check-circle fs-4" aria-label="Dernière étape"></span>
+                <p class="card-text">Déclaration accessibilité</p>
               </div>
             </div>
           </div>
         </div>
-
-
-        
         <h2 class="display-6 mt-5">Rôles</h2>
         <div class="row" id="roles">
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="Project Manager">
+              <img src="./assets/images/10681296.jpg" class="card-img-top" alt="Project Manager">
               <div class="card-body">
                 <h3 class="card-title">Project Manager</h3>
                 <p class="card-text">Responsable de la gestion des délais et des ressources, garantissant le bon déroulement du projet dans le respect des critères d’accessibilité.</p>
@@ -153,7 +158,20 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="Développeur">
+              <img src="./assets/images/9796308.jpg" class="card-img-top" alt="Product Owner">
+              <div class="card-body">
+                <h3 class="card-title">Product Owner</h3>
+                <p class="card-text">Responsable de la définition des besoins des utilisateurs et de la priorisation des fonctionnalités, tout en garantissant que le produit final répond aux attentes.</p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <span class="bi bi-people-fill fs-4" aria-label="Project Manager"></span>
+                <p class="card-text">Représente les utilisateurs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <div class="card h-100 shadow border-0">
+              <img src="./assets/images/9906021.jpg" class="card-img-top" alt="Développeur">
               <div class="card-body">
                 <h3 class="card-title">Développeur</h3>
                 <p class="card-text">Crée le code qui rend le site fonctionnel tout en veillant à ce que chaque fonctionnalité soit accessible à tous les utilisateurs.</p>
@@ -166,7 +184,7 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="Designer">
+              <img src="./assets/images/5187709.jpg" class="card-img-top" alt="Designer">
               <div class="card-body">
                 <h3 class="card-title">Designer</h3>
                 <p class="card-text">Crée des interfaces visuelles attrayantes tout en tenant compte des contraintes d’accessibilité, notamment en matière de couleurs et de contraste.</p>
@@ -179,7 +197,7 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="Expert Accessibilité">
+              <img src="./assets/images/8451560.jpg" class="card-img-top" alt="Expert Accessibilité">
               <div class="card-body">
                 <h3 class="card-title">Expert en Accessibilité</h3>
                 <p class="card-text">Évalue les fonctionnalités du site et garantit leur conformité aux normes d'accessibilité, apportant une expertise spécialisée.</p>
@@ -192,7 +210,7 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="Testeur">
+              <img src="./assets/images/6496071.jpg" class="card-img-top" alt="Testeur">
               <div class="card-body">
                 <h3 class="card-title">Testeur</h3>
                 <p class="card-text">Teste le site en utilisant différents outils et méthodes pour garantir que toutes les fonctionnalités sont accessibles.</p>
@@ -205,7 +223,7 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="Manager">
+              <img src="./assets/images/8239279.jpg" class="card-img-top" alt="Manager">
               <div class="card-body">
                 <h3 class="card-title">Manager</h3>
                 <p class="card-text">Assure la coordination des efforts au sein de l'équipe, en veillant à ce que tous les aspects du projet respectent les exigences d'accessibilité.</p>
@@ -217,108 +235,110 @@
             </div>
           </div>
         </div>
-        <h2 class="display-6">Déficiences</h2>
+        <h2 class="display-6 mt-5">Déficiences</h2>
         <div class="row" id="disabilities">
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
-            <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ef476f/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title">Visuel</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                <p class="card-text">13% de la population</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
-            <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ef476f/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title">Auditif</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                <p class="card-text">13% de la population</p>
+          <div class="row" id="deficiences">
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <div class="card h-100 shadow border-0">
+              <img src="./assets/images/disabilities.jpg" class="card-img-top" alt="Déficience">
+                <div class="card-body">
+                  <h3 class="card-title">Visuel</h3>
+                  <p class="card-text">Inclut la cécité, la malvoyance et les troubles de la vision des couleurs, affectant l'interprétation visuelle des contenus numériques.</p>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                  <span class="bi bi-eye fs-4" aria-label="déficience visuelle"></span>
+                  <p class="card-text">13% de la population</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
-            <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ef476f/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title">Moteur</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                <p class="card-text">13% de la population</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
-            <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ef476f/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title">Psychique</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                <p class="card-text">13% de la population</p>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <div class="card h-100 shadow border-0">
+              <img src="./assets/images/disabilities.jpg" class="card-img-top" alt="Déficience">
+                <div class="card-body">
+                  <h3 class="card-title">Auditif</h3>
+                  <p class="card-text">Concerne les personnes sourdes ou malentendantes, nécessitant des sous-titres, des transcriptions ou des interprètes en langue des signes.</p>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                  <span class="bi bi-volume-mute fs-4" aria-label="déficience auditive"></span>
+                  <p class="card-text">5% de la population</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
-            <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ef476f/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title">Intellectuel</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                <p class="card-text">13% de la population</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
-            <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ef476f/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title">Trouble Dys</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                <p class="card-text">13% de la population</p>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <div class="card h-100 shadow border-0">
+              <img src="./assets/images/disabilities.jpg" class="card-img-top" alt="Déficience">
+                <div class="card-body">
+                  <h3 class="card-title">Moteur</h3>
+                  <p class="card-text">Affecte la mobilité ou la coordination des membres, impactant l'utilisation d'une souris ou d'un clavier.</p>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                  <span class="bi bi-hand-index fs-4" aria-label="déficience motrice"></span>
+                  <p class="card-text">7% de la population</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
-            <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ef476f/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title">Maladies invalidantes</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <div class="card h-100 shadow border-0">
+              <img src="./assets/images/disabilities.jpg" class="card-img-top" alt="Déficience">
+                <div class="card-body">
+                  <h3 class="card-title">Psychique</h3>
+                  <p class="card-text">Concerne des troubles mentaux tels que l'anxiété ou la dépression, influençant la capacité à interagir avec des interfaces complexes.</p>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                  <span class="bi bi-emoji-frown fs-4" aria-label="déficience psychique"></span>
+                  <p class="card-text">6% de la population</p>
+                </div>
               </div>
-              <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                <p class="card-text">13% de la population</p>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <div class="card h-100 shadow border-0">
+              <img src="./assets/images/disabilities.jpg" class="card-img-top" alt="Déficience">
+                <div class="card-body">
+                  <h3 class="card-title">Intellectuel</h3>
+                  <p class="card-text">Inclut des troubles comme le handicap cognitif, limitant la capacité à comprendre ou interpréter des informations complexes.</p>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                  <span class="bi bi-lightbulb-off fs-4" aria-label="déficience intellectuelle"></span>
+                  <p class="card-text">3% de la population</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <div class="card h-100 shadow border-0">
+              <img src="./assets/images/disabilities.jpg" class="card-img-top" alt="Déficience">
+                <div class="card-body">
+                  <h3 class="card-title">Trouble Dys</h3>
+                  <p class="card-text">Troubles spécifiques de l’apprentissage comme la dyslexie (lecture), la dyspraxie (coordination), ou la dysphasie (langage), nécessitant une simplification des contenus.</p>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                  <span class="bi bi-book fs-4" aria-label="trouble dys"></span>
+                  <p class="card-text">8% de la population</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <div class="card h-100 shadow border-0">
+              <img src="./assets/images/disabilities.jpg" class="card-img-top" alt="Déficience">
+                <div class="card-body">
+                  <h3 class="card-title">Maladies invalidantes</h3>
+                  <p class="card-text">Maladies chroniques comme la sclérose en plaques, affectant la concentration ou l'énergie disponible pour utiliser un site ou une application.</p>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                  <span class="bi bi-heart-pulse fs-4" aria-label="maladies invalidantes"></span>
+                  <p class="card-text">4% de la population</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <h2 class="display-6">Outils</h2>
+        <h2 class="display-6 mt-5">Outils</h2>
         <div class="row" id="tools">
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Correcteur syntaxique</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Analyse les textes pour identifier et corriger automatiquement les erreurs grammaticales, orthographiques et syntaxiques.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -328,10 +348,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Test continu</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Exécute des tests automatisés intégrés au pipeline de développement pour vérifier les critères d’accessibilité à chaque étape.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -341,10 +361,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Surveillance</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Suit périodiquement l’état de conformité d’un site aux normes d’accessibilité, en signalant les régressions potentielles.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -354,10 +374,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Vérificateur de contraste</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Évalue la lisibilité des combinaisons de couleurs en calculant le taux de contraste.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -367,10 +387,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Extension navigateur</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Ajoute des outils d’analyse directement dans le navigateur pour tester l’accessibilité des pages en développement.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -380,10 +400,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Marque-page scripté</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Execute des scripts JavaScript spécifiques pour tester des aspects précis de l’accessibilité d’une page.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -393,10 +413,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Inspecteur de code</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Permet d’examiner manuellement le code HTML et CSS pour repérer les erreurs ou omissions dans l’accessibilité.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -406,10 +426,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Clavier</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Utilisé pour tester manuellement la navigation par tabulation, en s’assurant que tous les éléments interactifs sont accessibles.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -419,10 +439,10 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/06d6a0/073b4c/?text=placeholder" class="card-img-top" alt="">
+              <img src="./assets/images/tools.jpg" class="card-img-top" alt="Outil">
               <div class="card-body">
                 <h3 class="card-title">Aide technique</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Inclut les lecteurs d’écran, logiciels de loupe, et autres technologies pour tester l’expérience utilisateur des personnes en situation de handicap.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
                 <span class="bi bi-tools fs-4" aria-label="outil"></span>
@@ -431,222 +451,186 @@
             </div>
           </div>
         </div>
-        <h2 class="display-6">Critères</h2>
+        <h2 class="display-6 mt-5">Critères</h2>
         <div class="row" id="criteria">
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-                <div class="d-flex align-items-center justify-content-between">
-                  <span class="bi bi-person fs-4" aria-label="déficience"></span>
-                  <p class="card-text">Visuel</p>
-                </div>
-                <div class="d-flex align-items-center justify-content-between">
-                  <span class="bi bi-tools fs-4" aria-label="outil"></span>
-                  <p class="card-text">Vérificateur de contraste</p>
-                </div>
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Contrastes</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Garantir un contraste suffisant entre le texte (ou les images de texte) et l’arrière-plan afin de le rendre lisible, y compris pour les utilisateurs ayant une déficience visuelle.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>1.4.2</span> <span>AA</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Nom, rôle et valeur</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">S’assurer que les composants d’interface utilisateur disposent d’un nom, d’un rôle, et que leurs propriétés, valeurs et états sont accessibles par les technologies d’assistance.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>4.1.2</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Information et relations</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Présenter les informations et les relations (comme les en-têtes de tableaux ou les structures hiérarchiques) de manière à ce qu'elles soient compréhensibles à la fois visuellement et pour les technologies d’assistance.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
-                <p class="card-text">WCAG <span>1.3.2</span> <span>A</span></p>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
+                <p class="card-text">WCAG <span>1.3.1</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Contenu non textuel</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Fournir une alternative textuelle pour tout contenu non textuel (images, graphiques, vidéos, icônes) afin de le rendre compréhensible pour les utilisateurs ayant des limitations visuelles ou cognitives.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>1.1.1</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Parcours du focus</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Assurer que l’ordre de navigation au clavier suit une séquence logique et intuitive, pour que les utilisateurs puissent facilement accéder à tous les contenus interactifs.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>2.4.3</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Clavier</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Veiller à ce que toutes les fonctionnalités soient accessibles uniquement via le clavier, sans nécessiter de dispositif de pointage comme une souris.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>2.1.1</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Visibilité du focus</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Garantir que le focus est visible de manière claire pour aider les utilisateurs naviguant au clavier à repérer où se situe leur interaction à l’écran.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>2.4.7</span> <span>AA</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Contraste du contenu non textuel</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">S’assurer que les éléments graphiques et les composants de l’interface utilisateur disposent d’un contraste suffisant avec leur arrière-plan pour être perçus facilement.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>1.4.11</span> <span>AA</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Utilisation de la couleur</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Ne pas se fier uniquement à la couleur pour transmettre des informations, afin de garantir leur accessibilité à tous, y compris aux utilisateurs daltoniens.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>1.4.1</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Ordre séquentiel logique</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Vérifier que l’ordre de navigation et de lecture du contenu est cohérent et suit une logique qui facilite sa compréhension.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>1.3.2</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Étiquettes ou instructions</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Fournir des étiquettes claires ou des instructions appropriées pour aider les utilisateurs à comprendre les champs ou les interactions nécessitant une saisie.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>3.3.2</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Contourner des blocs</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Permettre aux utilisateurs de contourner les blocs de contenu répétitifs, comme les menus, pour accéder directement aux sections importantes.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>2.4.1</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Titre de page</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Fournir un titre descriptif et unique à chaque page pour indiquer son contenu ou son objectif de manière claire.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>2.4.2</span> <span>A</span></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
             <div class="card h-100 shadow border-0">
-              <img src="https://placehold.co/600x400/ffd166/073b4c/?text=placeholder" class="card-img-top" alt="">
-              <div class="card-header">
-              </div>
+              <img src="./assets/images/criteria.jpg" class="card-img-top" alt="Critère">
               <div class="card-body">
                 <h3 class="card-title">Langue de la page</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Déclarer la langue principale de la page dans le code afin que les technologies d’assistance puissent lire le contenu avec la bonne prononciation et intonation.</p>
               </div>
               <div class="card-footer d-flex align-items-center justify-content-between">
-                <span class="bi bi-list-check fs-4" aria-label="critère"></span>
+                <span class="bi bi-list-check fs-4" aria-label="Critère"></span>
                 <p class="card-text">WCAG <span>3.1.1</span> <span>A</span></p>
               </div>
             </div>
@@ -654,7 +638,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="fixed-bottom bg-body-tertiary">
       <div class="container-fluid d-flex align-items-center justify-content-between py-1">
         &copy; 2024
       </div>
